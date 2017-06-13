@@ -1,5 +1,3 @@
 
 
-## Interactive Practice: Model-View-Controller
-
-Fork and clone this repository and follow along in lecture!
+Fork and clone this repository to start your final project!!
