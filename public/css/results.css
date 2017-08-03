@@ -5,37 +5,27 @@ body {
      font-size: 14px;
 }
 
+
+p {
+     margin: auto;
+     padding:20px;
+     background-color: white;
+     letter-spacing: 1px;
+     color: black;
+     width:500px;
+     border: 5px solid pink;
+}
+
 h1 {
       letter-spacing: 3px;
       color: pink;
-}
-
-p {
-      letter-spacing: 1px;
-      color: white;
-}
-
-div {
-     color: white;
-     width:500px;
-     margin: auto;
-}
-
-input[type=submit] {
-     background-color: black;
-     border: pink 3px solid;
-     color: pink;
-}
-
-div p {
-     color:pink;
 }
 
 img {
      text-align: center;
      margin-top: 30px;
      padding:0px;
-     width:250px;
+     width:200px;
      border: 6px solid pink;
 }
 

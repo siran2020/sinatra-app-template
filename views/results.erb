@@ -3,19 +3,23 @@
   <head>
     <meta charset="UTF-8">
     <title>Here is you card!</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/results.css">
   </head>
   <body>
+    <h1>Here is your card!</h1>
     <p>
-      To: <%= @sender_name %>
+      <strong>To:</strong> <%= @sender_name %>
       <br></br>
-      From: <%= @receiver_name %>
+      <strong>From:</strong> <%= @receiver_name %>
       <br></br>
       <%= @message %>
-      
     </p>
    
-   
+    <div id="gifs">
+    <img src="http://image.blingee.com/images19/content/output/000/000/000/7ba/796496738_2013100.gif">
+    <img src="https://s3.amazonaws.com/image.blingee.com/images19/content/output/000/000/000/7fd/818608086_539691.gif?6">
+    <img src="https://s-media-cache-ak0.pinimg.com/originals/62/c8/b1/62c8b117c5ce83f631396d67b9ef8689.gif">
+    </div>
    
    
   </body>

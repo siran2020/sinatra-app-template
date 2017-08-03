@@ -2,18 +2,27 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <title>title</title>
+    <title>Card Maker</title>
     <link rel="stylesheet" href="css/style.css">
+  </head>
+    
   <body>
+    <h1>Welcome to Card Maker!</h1>
+    <p>Insert your name, who you want to send the card to, and a message you would like to add!</p>
+    <div>
     <form method="POST" action="/results">
       <p>Your name: <input type="text" name="sender_name"></p>
       <p>Receivers name: <input type="text" name="receiver_name"></p>
-      <p>Message name: <input type="text" name="message"></p>
-      <input type="submit">
+      <p>Message: <input type="text" name="message"></p>
+      <input type="submit" id="button">
     </form>
-
-
-
+    </div>
+    
+    <div id="gifs">
+    <img src="http://image.blingee.com/images19/content/output/000/000/000/7ba/796496738_2013100.gif">
+    <img src="https://s3.amazonaws.com/image.blingee.com/images19/content/output/000/000/000/7fd/818608086_539691.gif?6">
+    <img src="https://s-media-cache-ak0.pinimg.com/originals/62/c8/b1/62c8b117c5ce83f631396d67b9ef8689.gif">
+    </div>
 
   </body>
 </html>
