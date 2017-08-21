@@ -4,24 +4,24 @@
     <meta charset="UTF-8">
     <title>Welcome to Wear the Weather!</title>
     <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Patua+One|Raleway:700|Roboto+Slab" rel="stylesheet">
   </head>
     
   <body>
+    <div id="main">
     <h1>Welcome to Wear the Weather!</h1>
-    
+
+    <div id="text">
     <p>Confused on what to wear today? Not sure what the weather will be like later on? Randomly testing websites made by aspiring developers? Then this is the site for you! Input your zipcode and find out what the weather will be like and the reccomended attire for today!</p>
     
     <form method="POST" action="/results">
-        <p>Your city: <input type="text" name="city"></p> 
+        <p id="input">Your city: <br><input type="text" name="city"></p>
         
-       <!-- <p>Style: <input type="checkbox" name="style" value="Comfortable">Comfortable<br>
-                  <input type="checkbox" name="style" value="Sophisticated">Sophisticated<br>
-                  <input type="checkbox" name="style" value="Fun">Fun<br>
-                  </p>-->
                   
         <input type="submit" id="button">
     
     </form>
-    
+    </div>
+</div>
   </body>
 </html>

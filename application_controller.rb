@@ -1,6 +1,6 @@
 require 'bundler'
 Bundler.require
-require 'pp'
+#require 'pp'
 
 require_relative 'models/model.rb'
 class MyApp < Sinatra::Base
@@ -10,17 +10,13 @@ class MyApp < Sinatra::Base
   end
 
   post '/results' do
-    
     @city = params[:city]
-    @result = [temp]
-    
-    #user_city
-    #@result=[]
-    #@result=what_to_wear(user_city)
+    @result=[]
+    @result=format_request_and_call_api(@city)
    
-   # @style = params[:style]
-
+    #@result = []
+    #@result = format_request_and_call_api(user_city)
     erb :results
-  end
   
+  end
 end

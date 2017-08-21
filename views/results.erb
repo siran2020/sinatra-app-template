@@ -4,21 +4,23 @@
     <meta charset="UTF-8">
     <title>Wear the Weather Results!</title>
     <link rel="stylesheet" href="css/results.css">
+    <link href="https://fonts.googleapis.com/css?family=Patua+One|Raleway:700|Roboto+Slab" rel="stylesheet">
   </head>
   
   <body>
+    <div id="main">
     
     <h1>Here is your reccomended attire!</h1>
     
     <p>
       
-      Based on your location: <%= @city %>, you should wear:
+      You are in <%= @city %>. The weather is <%= @temperature %>, you should wear: <%= @results %>
       
       <br>
-      <p><%= @result %>
+      <p>
       </p>
       
     </p>
-   
+   </div>
   </body>
 </html>

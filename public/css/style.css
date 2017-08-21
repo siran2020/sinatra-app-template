@@ -27,6 +27,11 @@ h1 {
     -webkit-background-clip: text;
 }
 
+form {
+     text-align: center;
+     font-weight: bold;
+     
+}
 
 #main {
   background-color: white;
@@ -41,6 +46,18 @@ h1 {
      
 }
 
+#text {
+     display: inline-block;
+}
+
 html {
   text-align: center;
+}
+
+#input {
+     font-weight:bold;
+      -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    color:black;
+     
 }
